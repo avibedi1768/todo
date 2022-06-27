@@ -1,5 +1,7 @@
 var db = firebase.database();
-
+document.getElementById("btn").onclick =(=> {
+	document.getElementById("head_todo").focus()
+})
 if (localStorage.getItem("id") == undefined) {
 	localStorage.setItem("id", 0);
 }
